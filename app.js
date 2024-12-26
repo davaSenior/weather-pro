@@ -43,9 +43,9 @@ function displayWeather(data) {
     if (temp <= 10) {
         body.classList.add("cold");
     } else if (temp > 10 && temp <= 25) {
-        body.classList.add("warm");
+        body.classList.add("cold");
     } else {
-        body.classList.add("hot");
+        body.classList.add("cold");
     }
 
 
